@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                
+            </ul>
+        </nav>
+        <h1>Welcome To Home</h1>
+    </header>
+
+    <h1>Form For Food</h1>
+    <form action="">
+        <p>Name: <input type="text" placeholder="Enter your name" id="" > </p>
+        <p>Email: <input type="text" placeholder="Enter your email" id=""> </p>
+
+        <fieldset>
+            <legend>Select your choice</legend>
+            <p>
+                <label for="FISH">
+                    <input type="radio" name="food" id="FISH">Fish
+                </label>
+            </p>
+            <p>
+                <label for="chicken">
+                    <input type="radio" name="food" id="chicken">chicken
+                </label>
+            </p>
+            <p>
+                <label for="cake">
+                    <input type="radio" name="food" id="cake">cake
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Select your preference
+            </legend>
+            <p><label for="korean"><input type="checkbox" name="country" 
+            id="korean">korean</label></p>
+            <p><label for="chiness"><input type="checkbox" name="country" id="chiness">chiness</label></p>
+            <p><label for="bengali"><input type="checkbox" name="country" id="bengali">bengali</label></p>
+        </fieldset>
+
+        <p>Special instrucktion
+            <br>
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+        </p>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>
